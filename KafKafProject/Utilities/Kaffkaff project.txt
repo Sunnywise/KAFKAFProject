@@ -1,0 +1,14 @@
+Kaffkaff project
+
+  Given user is on the KafKaf webpage
+  When user scrolls to the footer
+  And user clicks on the Contact button
+  Then the Contact page is displayed
+  When the user scrolls to the Contact Us form
+  And user enters his full name as "<Full Name>" in the field
+  And user enters email as "<Email Address>" in the field provided
+  And user selects any Subject from the dropdown
+  And user enters the content of his message as "<Message>"
+  And user uploads a file
+  And user clicks on the Send button
+  Then a "<Confirmatory Message>" is displayed for valid or invalid filling out of the Contact Us form
